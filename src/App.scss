@@ -1,0 +1,48 @@
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+// HEADINGS
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+nav {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.App {
+  background-image: url("./images/illustration-devices.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  position: relative;
+  height: 100vh;
+  font-size: 18px;
+}
+
+.c-background-box {
+  background-color: hsl(207, 33%, 95%);
+  border-bottom-left-radius: 50%;
+  position: absolute;
+  height: 50vh;
+  width: 50vw;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.c-navbar {
+  padding: 7% 15%;
+  .c-navbar__link {
+    font-weight: 700;
+    margin-left: 40px;
+    text-transform: uppercase;
+    &.c-navbar__link--login {
+      color: hsla(0, 0%, 70%, 1);
+    }
+  }
+}
