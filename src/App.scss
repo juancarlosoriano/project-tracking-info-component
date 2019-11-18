@@ -59,6 +59,13 @@ nav {
     &.c-navbar__link--dot,
     &.c-navbar__link--login {
       color: hsla(0, 0%, 70%, 1);
+      a {
+        color: hsla(0, 0%, 70%, 1);
+      }
+    }
+    a {
+      color: black;
+      text-decoration: none;
     }
   }
 }

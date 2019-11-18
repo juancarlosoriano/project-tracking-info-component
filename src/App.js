@@ -22,12 +22,18 @@ function App() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item c-navbar__link">Product</li>
-            <li className="nav-item c-navbar__link">Features</li>
-            <li className="nav-item c-navbar__link">Pricing</li>
+            <li className="nav-item c-navbar__link">
+              <a href="#">Product</a>
+            </li>
+            <li className="nav-item c-navbar__link">
+              <a href="#">Features</a>
+            </li>
+            <li className="nav-item c-navbar__link">
+              <a href="#">Pricing</a>
+            </li>
             <li className="nav-item c-navbar__link c-navbar__link--dot">•</li>
             <li className="nav-item c-navbar__link c-navbar__link--login">
-              Login
+              <a href="#">Login</a>
             </li>
           </ul>
         </div>
