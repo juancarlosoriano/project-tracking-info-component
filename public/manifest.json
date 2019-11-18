@@ -5,11 +5,11 @@
     {
       "src": "favicon-32x32.png",
       "sizes": "32x32",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
       "src": "logo.svg",
-      "type": "image/png",
+      "type": "image/svg",
       "sizes": "32x32"
     }
   ],
