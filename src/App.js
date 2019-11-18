@@ -5,7 +5,6 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
-      <div className="c-background-box"></div>
       <nav className="navbar navbar-expand-lg navbar-light c-navbar">
         <a className="navbar-brand" href="#navbar">
           <img src={logo} alt="logo-img" />
@@ -26,35 +25,63 @@ function App() {
             <li className="nav-item c-navbar__link">Product</li>
             <li className="nav-item c-navbar__link">Features</li>
             <li className="nav-item c-navbar__link">Pricing</li>
-            <li className="nav-item c-navbar__link">dot</li>
+            <li className="nav-item c-navbar__link c-navbar__link--dot">•</li>
             <li className="nav-item c-navbar__link c-navbar__link--login">
               Login
             </li>
           </ul>
         </div>
       </nav>
-      <div>
-        New Monograph Dashboard
-        <h1>Powerful insights into your team </h1>
-        <span>Project planning and time tracking for agile teams</span>
-        <button type="button" className="">
-          Schedule a demo
-        </button>{" "}
-        <span>to see a live preview</span>
-        <footer>
-          <p className="attribution">
-            Challenge by{" "}
-            <a
-              href="https://www.frontendmentor.io?ref=challenge/"
-              target="_blank"
-              rel="noopener noreferrer"
+
+      <div className="c-background-box"></div>
+      <div className="c-feature-img"></div>
+
+      <div className="jumbotron container-fluid c-jumbotron">
+        <div className="row">
+          <div className="col-lg-12">
+            <p className="c-jumbotron__top-text c-jumbotron--lg-text">
+              <span className="btn c-jumbotron__new-text">New</span>{" "}
+              <span className="c-jumbotron__light-text">
+                Monograph Dashboard
+              </span>
+            </p>
+            <h1 className="c-jumbotron__header-text c-jumbotron--lg-text">
+              Powerful insights <br />
+              into your team{" "}
+            </h1>
+            <span className="c-jumbotron__sub-text">
+              Project planning and time tracking
+              <br />
+              for agile teams
+            </span>
+            <br />
+            <br />
+            <button
+              type="button"
+              className="btn c-jumbotron__cta-btn c-jumbotron--lg-text"
             >
-              Frontend Mentor
-            </a>
-            . Coded by <a href="#">Juan Carlo Soriano</a>.
-          </p>
-        </footer>
+              Schedule a demo
+            </button>{" "}
+            <span className="c-jumbotron__light-text c-jumbotron--lg-text">
+              to see a preview
+            </span>
+          </div>
+        </div>
       </div>
+
+      <footer>
+        <p className="attribution">
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by <a href="#">Juan Carlo Soriano</a>.
+        </p>
+      </footer>
     </div>
   );
 }
