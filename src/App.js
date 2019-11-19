@@ -85,7 +85,8 @@ function App() {
           >
             Frontend Mentor
           </a>
-          . Coded by <a href="#">Juan Carlo Soriano</a>.
+          . Coded by{" "}
+          <a href="https://www.juancarlosoriano.ca/">Juan Carlo Soriano</a>.
         </p>
       </footer>
     </div>
