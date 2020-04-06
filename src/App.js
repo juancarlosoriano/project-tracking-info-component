@@ -5,7 +5,7 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
-      <nav className="navbar navbar-expand-lg navbar-light c-navbar">
+      <nav id="#navbar" className="navbar navbar-expand-lg navbar-light c-navbar">
         <a className="navbar-brand" href="#navbar">
           <img src={logo} alt="logo-img" />
         </a>
