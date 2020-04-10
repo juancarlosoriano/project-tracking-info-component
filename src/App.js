@@ -7,10 +7,9 @@ function App() {
     <div className="App">
       <nav
         id="#navbar"
-        name="navbar"
         className="navbar navbar-expand-lg navbar-light c-navbar"
       >
-        <a className="navbar-brand" href="#navbar">
+        <a className="navbar-brand" href={`javascript:void(0)`}>
           <img src={logo} alt="logo-img" />
         </a>
         <button
