@@ -2,6 +2,16 @@ body {
   font-family: "Barlow", sans-serif;
 }
 
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
 // HEADINGS
 h1,
 h2,
@@ -59,11 +69,12 @@ nav {
     &.c-navbar__link--dot,
     &.c-navbar__link--login {
       color: hsla(0, 0%, 70%, 1);
-      a {
+      button {
         color: hsla(0, 0%, 70%, 1);
       }
     }
-    a {
+    button {
+      text-transform: uppercase;
       color: black;
       text-decoration: none;
     }

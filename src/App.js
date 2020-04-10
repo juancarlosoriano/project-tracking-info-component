@@ -5,7 +5,11 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
-      <nav id="#navbar" className="navbar navbar-expand-lg navbar-light c-navbar">
+      <nav
+        id="#navbar"
+        name="navbar"
+        className="navbar navbar-expand-lg navbar-light c-navbar"
+      >
         <a className="navbar-brand" href="#navbar">
           <img src={logo} alt="logo-img" />
         </a>
@@ -23,17 +27,17 @@ function App() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item c-navbar__link">
-              <a href="#">Product</a>
+              <button>Product</button>
             </li>
             <li className="nav-item c-navbar__link">
-              <a href="#">Features</a>
+              <button>Features</button>
             </li>
             <li className="nav-item c-navbar__link">
-              <a href="#">Pricing</a>
+              <button>Pricing</button>
             </li>
             <li className="nav-item c-navbar__link c-navbar__link--dot">•</li>
             <li className="nav-item c-navbar__link c-navbar__link--login">
-              <a href="#">Login</a>
+              <button>Login</button>
             </li>
           </ul>
         </div>
